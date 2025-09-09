@@ -24,8 +24,8 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
 
 1. Clone o repositório:
 ```bash
-   git clone https://github.com/martins158/desafio-martins0158-2025
-   cd desafio-martins0158-2025
+   git clone https://github.com/martins158/desafio-martins158-2025
+   cd desafio-martins158-2025
 ````
 2. Instale as dependências:
 ````bash
