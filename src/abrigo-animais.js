@@ -80,17 +80,12 @@ class AbrigoAnimais {
         return j === needle.length;
       };
 
-      // Aux: checa se conjunto está contido independente da ordem
+      //Não trata duplicatas.
       const hasAllIgnoringOrder = (needle, hay) => {
-        const bag = new Map();
-        for (const h of hay) bag.set(h, (bag.get(h) || 0) + 1);
-        for (const n of needle) {
-          const c = bag.get(n) || 0;
-          if (c <= 0) return false;
-          bag.set(n, c - 1);
-        }
-        return true;
+        return needle.every(item => hay.includes(item));
       };
+
+
 
       const result = [];
       const adoptedCount = { 1: 0, 2: 0 };
