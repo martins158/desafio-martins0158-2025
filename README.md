@@ -16,6 +16,7 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
 └── abrigo-animais.test.js # Testes automatizados (Jest)
 
 📦 package.json # Dependências do projeto
+
 📄 README.md # Documentação do projeto
 
 
