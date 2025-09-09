@@ -34,7 +34,7 @@ Execute os testes:
 
 npm test
 
-Regras Implementadas
+## Regras Implementadas
 1. Validação de animais e brinquedos
 
 Animais e brinquedos devem estar na lista válida.
@@ -42,20 +42,24 @@ Entrada inválida gera erro:
 "Animal inválido"
 "Brinquedo inválido"
 
+
 2. Subsequência de brinquedos
 
 A ordem de brinquedos deve respeitar a sequência de preferência.
 Intercalar é permitido, mas a ordem não pode ser alterada.
+
 
 3. Regra especial do Loco
 
 Se for o primeiro animal adotado, Loco deve seguir a ordem dos brinquedos normalmente.
 Se a pessoa já adotou outro animal, Loco ignora a ordem (apenas exige que os brinquedos estejam presentes).
 
+
 4. Limite de adoções
 
 Cada pessoa pode adotar no máximo 3 animais.
 Caso ultrapasse, o animal extra vai para o abrigo.
+
 
 5. Abrigo
 
