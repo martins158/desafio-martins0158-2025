@@ -26,6 +26,7 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
    ```bash
    git clone https://github.com/martins158/desafio-martins0158-2025
    cd desafio-martins0158-2025
+   
 Instale as dependências:
 
 npm install
