@@ -26,15 +26,15 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
    ```bash
    git clone https://github.com/martins158/desafio-martins0158-2025
    cd desafio-martins0158-2025
-   
-Instale as dependências:
- ```bash
-npm install
-
-Execute os testes:
- ```bash
+   ````
+2. Instale as dependências:
+````bash
+   npm install
+````
+3. Execute os testes:
+````bash
 npm test
-
+````
 ## Regras Implementadas
 1. Validação de animais e brinquedos
 
