@@ -27,9 +27,11 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
    git clone https://github.com/martins158/desafio-martins0158-2025
    cd desafio-martins0158-2025
 Instale as dependências:
+
 npm install
 
 Execute os testes:
+
 npm test
 
 Regras Implementadas
@@ -71,13 +73,21 @@ Envio de animais para o abrigo.
 
 Execução bem-sucedida:
 PASS  src/abrigo-animais.test.js
+
   AbrigoAnimais.encontraPessoas
+  
     ✓ caso básico do README: 'Rex,Fofo'
+    
     ✓ animal inválido deve retornar erro
+    
     ✓ brinquedo inválido ou duplicado deve retornar erro
+    
     ✓ se ambos qualificam, vai para o abrigo
+    
     ✓ limite de 3 animais por pessoa (excede -> abrigo se outro não qualifica)
+    
     ✓ Loco ignora ordem quando tem companhia na mesma pessoa
+    
 
 🤔 Meus desafios no projeto
 1. Entender a regra do Loco:
