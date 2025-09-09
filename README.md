@@ -44,10 +44,12 @@ Entrada inválida gera erro:
 "Brinquedo inválido"
 
 
+
 2. Subsequência de brinquedos
 
 A ordem de brinquedos deve respeitar a sequência de preferência.
 Intercalar é permitido, mas a ordem não pode ser alterada.
+
 
 
 3. Regra especial do Loco
@@ -56,17 +58,20 @@ Se for o primeiro animal adotado, Loco deve seguir a ordem dos brinquedos normal
 Se a pessoa já adotou outro animal, Loco ignora a ordem (apenas exige que os brinquedos estejam presentes).
 
 
+
 4. Limite de adoções
 
 Cada pessoa pode adotar no máximo 3 animais.
 Caso ultrapasse, o animal extra vai para o abrigo.
 
 
+
 5. Abrigo
 
 Animais que não podem ser adotados de acordo com as regras vão para o abrigo.
 
-✅ Testes Automatizados
+
+## ✅ Testes Automatizados
 
 Os testes foram escritos com Jest e cobrem os principais cenários:
 Caso básico de adoção.
@@ -94,7 +99,7 @@ PASS  src/abrigo-animais.test.js
     ✓ Loco ignora ordem quando tem companhia na mesma pessoa
     
 
-🤔 Meus desafios no projeto
+## 🤔 Meus desafios no projeto
 1. Entender a regra do Loco:
 O enunciado deixava margem para interpretação. Decidi implementar de forma que, quando Loco já tem companhia, a ordem de brinquedos não importa.
 
@@ -104,7 +109,7 @@ No início, tive falhas porque alguns cenários não estavam claros (ex.: entrad
 3. Equilíbrio de código:
 Evitei soluções muito complexas. Como a vaga é para estágio, preferi uma lógica clara e objetiva ao invés de abstrações excessivas.
 
-📌 Observações finais
+## 📌 Observações finais
 
 Projeto simples, mas cobre lógica, regras de negócio e testes automatizados.
 O foco foi em clareza, organização e transparência.
