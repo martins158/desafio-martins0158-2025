@@ -1,4 +1,4 @@
-# desafio-martins0158-2025
+# desafio-martins158-2025
 
 Este projeto foi desenvolvido como parte de um desafio técnico para estágio, com foco em lógica de programação, organização de código e uso de testes automatizados com **Jest**.
 
