@@ -113,4 +113,5 @@ Evitei soluções muito complexas. Como a vaga é para estágio, preferi uma ló
 
 Projeto simples, mas cobre lógica, regras de negócio e testes automatizados.
 O foco foi em clareza, organização e transparência.
-Esse desafio mostrou minha capacidade de interpretar requisitos, estruturar regras e garantir qualidade via testes automatizados.
+Estou muito feliz por ter participado deste processo seletivo. Esse desafio foi muito especial para mim, porque me fez refletir, testar ideias e buscar soluções de forma criativa. 
+Foi uma experiência de grande aprendizado e crescimento, e sou grato pela oportunidade de mostrar um pouco do meu esforço e dedicação.
