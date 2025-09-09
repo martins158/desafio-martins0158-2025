@@ -28,11 +28,11 @@ O código precisa validar entradas, aplicar regras de adoção e indicar quando 
    cd desafio-martins0158-2025
    
 Instale as dependências:
-
+ ```bash
 npm install
 
 Execute os testes:
-
+ ```bash
 npm test
 
 ## Regras Implementadas
